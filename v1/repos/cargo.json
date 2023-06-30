@@ -1,0 +1,29 @@
+{
+  "org": "rust-lang",
+  "name": "cargo",
+  "description": "The Rust package manager",
+  "bots": [
+    "bors",
+    "rustbot",
+    "rfcbot"
+  ],
+  "teams": [
+    {
+      "name": "cargo",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false
+    },
+    {
+      "pattern": "rust-1.*",
+      "ci_checks": [],
+      "dismiss_stale_review": false
+    }
+  ]
+}

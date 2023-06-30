@@ -1,0 +1,524 @@
+{
+  "rust-lang": [
+    {
+      "org": "rust-lang",
+      "name": "arewewebyet",
+      "description": "Are we web yet? A simple reckoning of Rust's readiness for Web-related things.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "arewewebyet",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "backtrace-rs",
+      "description": "Backtraces in Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "alexcrichton",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "bors",
+      "description": "Rust implementation of bors used for various Rust components (e.g. the compiler).",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "infra-bors",
+          "permission": "write"
+        },
+        {
+          "name": "infra",
+          "permission": "write"
+        },
+        {
+          "name": "mods",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "cargo",
+      "description": "The Rust package manager",
+      "bots": [
+        "bors",
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "cargo",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        },
+        {
+          "pattern": "rust-1.*",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "cc-rs",
+      "description": "Rust library for build scripts to compile C/C++ code into a Rust library",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "cfg-if",
+      "description": "A if/elif-like macro for Rust #[cfg] statements",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "cmake-rs",
+      "description": "Rust build dependency for running cmake",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "compiler-builtins",
+      "description": "Porting `compiler-rt` intrinsics to Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "flate2-rs",
+      "description": "DEFLATE, gzip, and zlib bindings for Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "alexcrichton",
+          "permission": "maintain"
+        },
+        {
+          "name": "brson",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "getopts",
+      "description": "The getopts repo maintained by the rust-lang project",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "glob",
+      "description": "Support for matching file paths against Unix shell style patterns.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "leadership-council",
+      "description": "Home of the Rust Leadership Council",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "leadership-council",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "libc",
+      "description": "Raw bindings to platform APIs for Rust",
+      "bots": [
+        "bors",
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "libm",
+      "description": "A port of MUSL's libm to Rust.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "libz-sys",
+      "description": "Rust crate package to link to a system libz (zlib)",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "log",
+      "description": "Logging implementation for Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "opsem-team",
+      "description": "Home of the operational semantics team, used primarily for procedural items",
+      "bots": [],
+      "teams": [
+        {
+          "name": "opsem",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "pkg-config-rs",
+      "description": "Build library for invoking pkg-config for Rust",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "sdroege",
+          "permission": "write"
+        }
+      ],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "project-exploit-mitigations",
+      "description": "Exploit Mitigations Project Group",
+      "bots": [],
+      "teams": [
+        {
+          "name": "mods",
+          "permission": "maintain"
+        },
+        {
+          "name": "project-exploit-mitigations",
+          "permission": "maintain"
+        },
+        {
+          "name": "core",
+          "permission": "admin"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "main",
+          "ci_checks": [],
+          "dismiss_stale_review": true
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "rust-analyzer",
+      "description": "A Rust compiler front-end for IDEs",
+      "bots": [
+        "bors",
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "rust-analyzer",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "socket2",
+      "description": "Advanced configuration options for sockets.",
+      "bots": [],
+      "teams": [
+        {
+          "name": "crate-maintainers",
+          "permission": "maintain"
+        }
+      ],
+      "members": [
+        {
+          "name": "sfackler",
+          "permission": "maintain"
+        },
+        {
+          "name": "Darksonn",
+          "permission": "maintain"
+        },
+        {
+          "name": "Thomasdezeeuw",
+          "permission": "maintain"
+        },
+        {
+          "name": "chansuke",
+          "permission": "triage"
+        },
+        {
+          "name": "carllerche",
+          "permission": "maintain"
+        }
+      ],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "Rustfmt",
+            "Test (beta)",
+            "Test (macos)",
+            "Test (nightly)",
+            "Test (stable)",
+            "Test (windows)"
+          ],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "team",
+      "description": "Rust teams structure",
+      "bots": [],
+      "teams": [
+        {
+          "name": "core",
+          "permission": "admin"
+        },
+        {
+          "name": "mods",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "CI"
+          ],
+          "dismiss_stale_review": true
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "trait-system-refactor-initiative",
+      "description": "The Rustc Trait System Refactor Initiative",
+      "bots": [],
+      "teams": [
+        {
+          "name": "initiative-trait-system-refactor",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    },
+    {
+      "org": "rust-lang",
+      "name": "triagebot",
+      "description": "Automation/tooling for Rust spaces",
+      "bots": [
+        "rustbot"
+      ],
+      "teams": [
+        {
+          "name": "infra",
+          "permission": "write"
+        },
+        {
+          "name": "triagebot",
+          "permission": "write"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [],
+          "dismiss_stale_review": false
+        }
+      ]
+    },
+    {
+      "org": "rust-lang",
+      "name": "unsafe-code-guidelines",
+      "description": "Forum for discussion about what unsafe code can and can't do",
+      "bots": [
+        "rustbot",
+        "rfcbot"
+      ],
+      "teams": [
+        {
+          "name": "opsem",
+          "permission": "maintain"
+        }
+      ],
+      "members": [],
+      "branch_protections": []
+    }
+  ]
+}

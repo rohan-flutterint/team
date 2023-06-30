@@ -1,0 +1,26 @@
+{
+  "org": "rust-lang",
+  "name": "team",
+  "description": "Rust teams structure",
+  "bots": [],
+  "teams": [
+    {
+      "name": "core",
+      "permission": "admin"
+    },
+    {
+      "name": "mods",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [
+        "CI"
+      ],
+      "dismiss_stale_review": true
+    }
+  ]
+}
